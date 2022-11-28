@@ -1,12 +1,13 @@
-html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
-    margin-right: 25rem
+.myAppDemoWTmyCustomButton.sapMBtn {
+    margin-right: 0.125rem;
 }
-
-html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
-    margin-left: 25rem
-}
-
-.myAppDemoWT .myCustomText {
-    display: inline-block;
+.myAppDemoWTmyCustomText {
     font-weight: bold;
+}
+/*  ProductRating */
+.myAppDemoWTProductRating {
+    padding: 0.75rem;
+}
+.myAppDemoWTProductRating .sapMRI {
+    vertical-align: initial;
 }
